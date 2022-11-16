@@ -34,15 +34,12 @@ const App = () => {
         console.log(expense);
     };
 
-    const filterExpenseHander = (year) => {
-        console.log('In App.js');
-        console.log(year);
-    };
+
 
     return (
         <div>
             <NewExpense onAddExpense={addExpenseHandler}/>
-            <Expenses onFilter={filterExpenseHander} items={expenses}/>
+            <Expenses items={expenses}/>
 
         </div>
     );
