@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9ef30cb-bc9d-4f52-a0ca-f768d94a0db6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/Expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Expenses/Expenses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="440">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -229,7 +227,7 @@
       <updated>1668562440590</updated>
       <workItem from="1668562441969" duration="2288000" />
       <workItem from="1668567358488" duration="4336000" />
-      <workItem from="1668621162566" duration="8359000" />
+      <workItem from="1668621162566" duration="8631000" />
     </task>
     <task id="LOCAL-00001" summary="Section 3-39: Practice of 'Composition' with props.children">
       <created>1668574787380</created>
@@ -280,11 +278,25 @@
       <option name="project" value="LOCAL" />
       <updated>1668634190975</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment 3: my solution">
+      <created>1668637213206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668637213206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Assignment 3: Instructor's solution&#10;Add a new arrey for filtered data instead of changing the original one">
+      <created>1668637353609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668637353609</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14983000" />
+    <option name="totallyTimeSpent" value="15255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +348,9 @@
     <MESSAGE value="Section 4-54. Using One State Instead (And What's Better)&#10;Section 4-55. Updating State That Depends On The  Previous State" />
     <MESSAGE value="Section 4-58. Child-to-Parent Component Communication (Bottom-up)&#10;Section 4-59. Lifting The State Up&#10;Assignment 2: my solution" />
     <MESSAGE value="Assignment 2: Instructor's solution&#10;1. No need to lift data to App.js&#10;2. Two-way binding: 'selected={}'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2: Instructor's solution&#10;1. No need to lift data to App.js&#10;2. Two-way binding: 'selected={}'" />
+    <MESSAGE value="Assignment 3: my solution" />
+    <MESSAGE value="Assignment 3: Instructor's solution&#10;Add a new arrey for filtered data instead of changing the original one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 3: Instructor's solution&#10;Add a new arrey for filtered data instead of changing the original one" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Expenses/ExpenseDate.css">
@@ -461,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Expenses/Expenses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="440">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
