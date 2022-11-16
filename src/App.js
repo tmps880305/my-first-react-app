@@ -13,7 +13,8 @@ const App = () => {
         {
             id: 'e2', title: 'New TV',
             amount: 799.49,
-            date: new Date(2021, 2, 12)},
+            date: new Date(2021, 2, 12)
+        },
         {
             id: 'e3',
             title: 'Car Insurance',
@@ -28,10 +29,20 @@ const App = () => {
         },
     ];
 
+    const addExpenseHandler = (expense) => {
+        console.log('In App.js');
+        console.log(expense);
+    };
+
+    const filterExpenseHander = (year) => {
+        console.log('In App.js');
+        console.log(year);
+    };
+
     return (
         <div>
-            <NewExpense/>
-            <Expenses items={expenses}/>
+            <NewExpense onAddExpense={addExpenseHandler}/>
+            <Expenses onFilter={filterExpenseHander} items={expenses}/>
 
         </div>
     );
